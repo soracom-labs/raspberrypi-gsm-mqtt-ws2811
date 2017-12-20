@@ -1,0 +1,29 @@
+{
+  "name": "soracom-xmas-pi",
+  "description": "Soracom Xmas WS2811 LEDs controller",
+  "version": "2.1.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "/usr/src/app/start.sh",
+    "lint": "jshint .",
+    "validate": "npm ls"
+  },
+  "author": "Alexis Susset <alexis@soracom.io>",
+  "dependencies": {
+    "figlet": "^1.2.0",
+    "mqtt": "^2.2.1",
+    "requestretry": "^1.12.0",
+    "pi-pins": "^1.0.2",
+    "os-utils": "0.0.14",
+    "rpi-ws281x-native": "^0.8.2"
+  },
+  "engines": {
+    "node": "9.2.0",
+    "npm": "5.5.1"
+  },
+  "license": "MIT",
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
