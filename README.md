@@ -14,7 +14,8 @@ ANIME (Animation of different coulours)
 IF (Iteration with coloured strip)  
 IT (Iteration with additional LEDs off)  
 BR (brightness rotation)  
-OFF (Switches off the LEDs Strip, great when forgetting to switch things off before leaving)  ```
+OFF (Switches off the LEDs Strip, great when forgetting to switch things off before leaving)
+```
   
   
 Lastly you can wire your LED strip as follow:
